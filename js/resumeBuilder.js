@@ -141,20 +141,20 @@ var work = {
 			title: 'Delivery Boy',
 			location: 'Brooklyn, NY',
 			dates: 'January 2000 - Future',
-			description:	'Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes' +
-							'out everybody\'s happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella' +
-							'cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese' +
-							'stinking bishop jarlsberg.'
+			description: 'Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes' +
+				'out everybody\'s happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella' +
+				'cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese' +
+				'stinking bishop jarlsberg.'
 		},
 		{
 			employer:'Planet Express',
 			title: 'Delivery Boy',
 			location: 'Manhattan, NY',
 			dates: '1998 - December 31,1999',
-			description:	'Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes' +
-							'out everybody\'s happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella' +
-							'cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese' +
-							'stinking bishop jarlsberg.'
+			description: 'Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes' +
+				'out everybody\'s happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella' +
+				'cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese' +
+				'stinking bishop jarlsberg.'
 		}
 	],
 	display: function() {
@@ -185,10 +185,10 @@ var projects = {
 		{
 			title: 'Sample Project 1',
 			dates: '2014',
-			description:	'Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes' +
-							'out everybody\'s happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella' +
-							'cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese' +
-							'stinking bishop jarlsberg.',
+			description: 'Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes' +
+				'out everybody\'s happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella' +
+				'cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese' +
+				'stinking bishop jarlsberg.',
     		images: ['images/197x148.gif','images/197x148.gif','images/197x148.gif']
 		}
 	],
