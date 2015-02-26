@@ -189,7 +189,7 @@ var projects = {
 				'out everybody\'s happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella' +
 				'cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese' +
 				'stinking bishop jarlsberg.',
-    		images: ['images/197x148.gif','images/197x148.gif','images/197x148.gif']
+			images: ['images/197x148.gif','images/197x148.gif','images/197x148.gif']
 		}
 	],
 	display: function() {
