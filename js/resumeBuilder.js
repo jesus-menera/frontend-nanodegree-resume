@@ -37,6 +37,12 @@ var bio = {
 		$("#topContacts").append(HTMLtwitter.replace("%data%",this.contacts.twitter));
 		$("#topContacts").append(HTMLlocation.replace("%data%",this.contacts.location));
 
+		$("#footerContacts").append(HTMLmobile.replace("%data%",this.contacts.mobile));
+		$("#footerContacts").append(HTMLemail.replace("%data%",this.contacts.email));
+		$("#footerContacts").append(HTMLgithub.replace("%data%",this.contacts.github));
+		$("#footerContacts").append(HTMLtwitter.replace("%data%",this.contacts.twitter));
+		$("#footerContacts").append(HTMLlocation.replace("%data%",this.contacts.location));
+		
 		$("#header").append(HTMLbioPic.replace("%data%",this.biopic));
 		$("#header").append(HTMLWelcomeMsg.replace("%data%",this.welcomeMessage));
 
