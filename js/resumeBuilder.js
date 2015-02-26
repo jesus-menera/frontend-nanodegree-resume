@@ -95,7 +95,7 @@ var education = {
 			url: 'http://www.udacity.com/course/ud804'
 		}
 	],
-	display: function(){
+	display: function() {
 		if(this.schools.length > 0) {
 			$("#education").append(HTMLschoolStart);
 			this.schools.forEach(function(school) {
@@ -159,7 +159,7 @@ var work = {
 	],
 	display: function() {
 		if(this.jobs.length>0) {
-			this.jobs.forEach(function(job){
+			this.jobs.forEach(function(job) {
 				var jobDiv = $(HTMLworkStart);
 				jobDiv.append(  HTMLworkEmployer.replace("%data%", job.employer) + HTMLworkTitle.replace("%data%", job.title));
 				jobDiv.append(HTMLworkDates.replace("%data%", job.dates));
@@ -194,13 +194,13 @@ var projects = {
 	],
 	display: function() {
 		if(this.projects.length>0) {
-			this.projects.forEach(function(project){
+			this.projects.forEach(function(project) {
 				var projectDiv = $(HTMLprojectStart);
 				projectDiv.append(HTMLprojectTitle.replace("%data%",project.title));
 				projectDiv.append(HTMLprojectDates.replace("%data%",project.dates));
 				projectDiv.append(HTMLprojectDescription.replace("%data%",project.description));
 				if(project.images.length>0) {
-					project.images.forEach(function(image){
+					project.images.forEach(function(image) {
 						projectDiv.append(HTMLprojectImage.replace("%data%",image));
 					});
 				}
